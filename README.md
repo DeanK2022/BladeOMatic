@@ -6,15 +6,24 @@ The screen is this one: https://www.aliexpress.com/item/1005004083478309.html?sp
 
 The JC3248S035 does not seem to like interrupt based comms on the touch screen - it is an I2C interface so don't forget your 2k pull up resistors on SDA and SCL lines.  It is also quite touchy about which ESP32 pins are used, these pins seem to work OK:
 
-#define TFT_MOSI 23
-#define TFT_SCLK 18
+#define TFT_MOSI  23
+
+#define TFT_SCLK  18
+
 #define TFT_CS    14
+
 #define TFT_DC    27
+
 #define TFT_RST   19
+
 #define TOUCH_SDA 21
+
 #define TOUCH_SCL 22
+
 #define TOUCH_INT 25
+
 #define TOUCH_RST 26 
+
 #define TOUCH_CLOCK 400000
 
 And don't forget a pull up 10K on the screen reset line.  I was having problems uploading new builds with some strange "board not in upload state" type messages and all I could do was power off and begin the compile/upload cycle afresh.  
