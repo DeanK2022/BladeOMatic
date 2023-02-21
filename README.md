@@ -20,7 +20,7 @@ The JC3248S035 does not seem to like interrupt based comms on the touch screen -
 
 And don't forget a pull up 10K on the screen reset line.  I was having problems uploading new builds with some strange "board not in upload state" type messages and all I could do was power off and begin the compile/upload cycle afresh.  
 
-The UI is put together using the GUISlice library that was also hacked to use the new GT911 driver.  
+The UI is put together using the GUISlice library that was also hacked to use the new GT911 driver - see the sibling repo GUISlice.  
 
 
 ![20230210_183339-small](https://user-images.githubusercontent.com/101397734/220383486-0e2ab315-319c-4b83-9050-3033a0d2f19e.jpg)
