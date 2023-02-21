@@ -22,5 +22,5 @@ And don't forget a pull up 10K on the screen reset line.  I was having problems 
 
 The UI is put together using the GUISlice library that was also hacked to use the new GT911 driver - see the sibling repo GUISlice.  
 
-
+A first look at the UI:
 ![20230210_183339-small](https://user-images.githubusercontent.com/101397734/220383486-0e2ab315-319c-4b83-9050-3033a0d2f19e.jpg)
