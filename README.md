@@ -11,10 +11,9 @@ The JC3248S035 does not seem to like interrupt based comms on the touch screen -
 #define TFT_CS    14
 #define TFT_DC    27
 #define TFT_RST   19
-
-#define TOUCH_SDA 21  
-#define TOUCH_SCL 22  
-#define TOUCH_INT 25 
+#define TOUCH_SDA 21
+#define TOUCH_SCL 22
+#define TOUCH_INT 25
 #define TOUCH_RST 26 
 #define TOUCH_CLOCK 400000
 
