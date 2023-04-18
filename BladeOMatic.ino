@@ -224,7 +224,7 @@ void TestFoilTip()
         }
       //gslc_Update(&m_gui);
     } 
-    
+     
   }
 
   digitalWrite(PIN_ORANGE_THREE_C,LOW); 
